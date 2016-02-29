@@ -1,0 +1,88 @@
+<mj-body>
+  <mj-section background-url="http://lorempixel.com/600/200/">
+    <mj-column>
+      <mj-text></mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- 2 columns block -->
+  <mj-section background-color="white">
+    <!-- Left paragraph -->
+    <mj-column>
+      <mj-text font-style="italic"font-size="20" font-family="Helvetica Neue" color="#626262" >Lorem ipsum dolor sit amet, consectetur</mj-text>
+      <mj-text font-size="14">eu semper augue semper. Aliquam</mj-text>
+  </mj-column>
+
+  <!-- right paragraph -->
+  <mj-column>
+    <mj-button font-family="Helvetica" background-color="#FF69B4" color="white">VOIR L'OFFRE</mj-button>
+    </mj-column>
+  </mj-section>
+
+  <!--  blue box -->
+  <mj-section  background-color="#E7F2Fb">
+   <!-- Left paragraph -->
+    <mj-column >
+      <mj-text font-style="italic" align="center"  font-size="20" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>     
+    </mj-column>
+    <mj-section>
+      <!-- right paragraph -->
+      <mj-column background-color="white" >
+        <mj-text >My Awesome Text</mj-text>
+        <mj-text >My Awesome Text</mj-text>
+        <mj-text >My Awesome Text</mj-text>
+        <mj-button font-family="Helvetica" background-color="#FF69B4" color="white">VOIR L'OFFRE</mj-button>
+      </mj-column>
+      <mj-column background-color="white" padding-bottom="10">
+        <mj-text >My Awesome Text</mj-text>
+        <mj-text >My Awesome Text</mj-text>
+        <mj-button font-family="Helvetica" background-color="#FF69B4" color="white">VOIR L'OFFRE</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-text align="center" font-size="20">Lorem ipsum dolor sit amet, consectetur</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- pub -->
+  <mj-section>
+    <!--  1st col -->
+    <mj-column>
+      <mj-image width="100" src="http://lorempixel.com/100/200/" padding="0"/>
+      <mj-button font-family="Helvetica" background-color="#FF69B4" color="white">VOIR L'OFFRE</mj-button>
+    </mj-column>
+    <!--  2nd col -->    
+    <mj-column>
+      <mj-image width="100" src="http://lorempixel.com/100/200/" padding="0"/>
+      <mj-button font-family="Helvetica" background-color="#FF69B4" color="white">VOIR L'OFFRE</mj-button> 
+    </mj-column>
+    <!--  3rd col --> 
+    <mj-column>
+      <mj-image width="100" src="http://lorempixel.com/100/200/" padding="0"/>
+      <mj-button font-family="Helvetica" background-color="#FF69B4" color="white">VOIR L'OFFRE</mj-button>
+    </mj-column>          
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider border-width="5px" border-style="solid" border-color="#FF69B4" padding="0"></mj-divider>
+    </mj-column>
+  </mj-section>
+
+  <!--  social announce -->
+  <mj-section>
+    <mj-column>
+      <mj-text align="center"  padding="0" font-size="14" color="black">Lorem ipsum dolor</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!--  social -->  
+  <mj-section> 
+   <mj-column>
+     <mj-social mode="horizontal" display="facebook google linkedin twitter" google-icon-color="red" facebook-icon-color="#000060" facebook-href="my facebook page" google-href="my google+ page" linkedin-href="my linkedin page" facebook-href="my facebook page"/>
+   </mj-column>
+  </mj-section> 
+</mj-body>
