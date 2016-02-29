@@ -1,0 +1,24 @@
+{
+  "name": "templates-email-mjml",
+  "version": "1.0.0",
+  "description": "some emails templates with MJML engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurentBsss/templates-email-MJML.git"
+  },
+  "keywords": [
+    "email",
+    "template",
+    "mjml"
+  ],
+  "author": "laurentBsss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurentBsss/templates-email-MJML/issues"
+  },
+  "homepage": "https://github.com/laurentBsss/templates-email-MJML#readme"
+}
