@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/laurentBsss/templates-email-MJML.git"
   },
+  "scripts": {
+    "em1": "mjml -r input.mjml -o my-email.html",
+    "em2": "mjml -r input2.mjml -o my-email2.html"
+  },
   "keywords": [
     "email",
     "template",
